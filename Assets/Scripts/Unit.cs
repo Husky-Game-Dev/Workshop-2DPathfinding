@@ -12,7 +12,7 @@ public class Unit : MonoBehaviour
     void Update()
     {
         if (currentPath != null) {
-            Debug.Log("Current path: " + currentPath.Count);
+            //Debug.Log("Current path: " + currentPath.Count);
             int currNode = 0;
             while (currNode < currentPath.Count - 1) {
                 Vector3 start = map.TileCoordToWorldCoord(currentPath[currNode].x, currentPath[currNode].y);

@@ -14,7 +14,7 @@ public class ClickOnTile : MonoBehaviour
         //map.moveUnit(tileX, tileY);
         //map.moveBFS(tileX, tileY);
         StartCoroutine(colorFlash());
-        //map.moveA(tileX, tileY);
+        StartCoroutine(map.moveA(tileX, tileY));
     }
 
     IEnumerator colorFlash() {
